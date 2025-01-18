@@ -11,12 +11,13 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div className="h-screen  max-w-[1200px] mx-auto justify-center">
+    <div className="relative">
       <Navbar />
       <Hero />
       <Skills />
       <Portfolio />
       <Contact />
+     
     </div>
   );
 }

@@ -15,10 +15,10 @@ const Navbar = () => {
   return (
     <>
       <div className={`relative w-screen transition-all`}>
-        <div className="bg-gradient-to-r from-blue-200 to-purple-300 fixed top-0 left-0 right-0 flex justify-between items-center text-gray-600 h-16 rounded-md px-6 shadow-md">
-          <h1 className="text-lg font-bold">IBITAU MICHAEL</h1>
+        <div className="bg-gradient-to-r from-blue-200 to-purple-300 fixed top-0 left-0 right-0 flex justify-between items-center text-gray-600 h-16 md:h-20 rounded-md px-6   shadow-md">
+          <h1 className="text-lg md:text-2xl  font-bold">IBITAU MICHAEL</h1>
 
-          <ul className="hidden md:flex gap-4 p-2 text-lg font-semibold mr-36">
+          <ul className="hidden md:flex gap-4 md:text-2xl text-lg font-bold">
             <a href="#about">
               <li className="hover:underline cursor-pointer transition-all ease-in-out duration-300">
                 Home
@@ -111,4 +111,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

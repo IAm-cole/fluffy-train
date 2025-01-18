@@ -7,12 +7,12 @@ export default function Hero() {
   return (
     <div
       id="about"
-      className=" border-gray-500 rounded-full  text-gray-200    bg-black  w-full  max-w-[1200px] mx-auto  p-10 md:mt-9 "
+      className="  text-gray-200    bg-black    p-10 md:mt-10 "
     >
-      <h1 className="text-base mt-10 md:justify-center  font-serif  font-bold  ">
+      <h1 className="text-base md:text-gray-200 md:text-xl mt-10   font-serif  font-bold  ">
         About Me...
       </h1>
-      <p className=" md:text-lg md:text-gray-300  mt-2">
+      <p className=" leading-loose md:mt-4  md:text-xl md:text-gray-100  mt-2">
         I am a dedicated frontend web developer skilled in JavaScript, React,
         HTML, Tailwind, and CSS. With a proven track record of successfully
         collaborating with various organizations, I am committed to delivering
