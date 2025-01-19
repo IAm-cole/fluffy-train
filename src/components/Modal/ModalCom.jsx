@@ -8,11 +8,11 @@ export default function ModalCom({ children, open, setOpen, modalDes }) {
         open ? "visible bg-black/20" : "invisible"
       }`}
     >
-      <div className="w-full h-full flex justify-center items-center">
-        <div className="relative  w-3/4 max-h-full  overflow-hidden flex flex-col  ">
+      <div className="w-3/4 h-full flex justify-center items-center">
+        <div className="relative   w-1/2   overflow-hidden flex flex-col rounded-2xl    ">
           <div className="relative rounded-lg shadow dark:bg-gray-700">
-            <div className="flex justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-              <h3 className="text-xl font-semibold text-gray-400 dark:text-white">
+            <div className="flex justify-between p-4 md:p-5 border-b dark:border-gray-400">
+              <h3 className="text-lg  md:text-xl font-semibold font-serif text-gray-400 dark:text-white">
                 {modalDes.title}
               </h3>
               <button
@@ -37,14 +37,13 @@ export default function ModalCom({ children, open, setOpen, modalDes }) {
                 </svg>
               </button>
             </div>
-            <div className="p-4 md:p-10 tracking-tight  whitespace-normal text-justify ">
-              <p className="  md:text-base md:text-gray-100 justify-start">
+            <div className="p-4 md:p-10 tracking-tight dark:bg-gray-700 font-serif text-white  whitespace-normal text-justify ">
+              <p className="  md:text-xl text-base md:text-gray-100  justify-start">
                 {modalDes.content}
               </p>
               <button className="py-2 px-4 bg-blue-700 text-white text-base md:text-lg rounded-lg mt-4">
                 Visit Page
               </button>
-              
             </div>
             <div className="bg-white text-black">{children}</div>
           </div>

@@ -21,19 +21,19 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="text-center bg-black md:mt-6     text-white w-full "
+      className="text-center bg-black mt-10     text-white w-full "
     >
       <h3 className="inline-flex  px-8 py-3 md:text-xl font-serif font-medium text-center mt-2  mb-4 bg-blue-700 hover:bg-blue-800 rounded-xl md:p-none md:m-0  cursor-pointer">
         Portfolio
       </h3>
-      <div className="flex justify-center bg-black  flex-wrap md:mt-4 gap-2 md:gap-none  ">
+      <div className="flex justify-center    flex-wrap md:mt-4 gap-2 md:gap-none  ">
         {Data.map((item) => (
           <div
             key={item.id}
-            className="p-2 md:p-4  md:w-full  lg:w-1/4  text-xl text-nowrap  bg-white border    md:rounded-md lg:m-5 dark:bg-gray-800 dark:border-gray-700"
+            className="p-2 md:p-4  md:w-full  lg:w-1/4  text-xl text-nowrap    text-white border  rounded-xl  dark:bg-gray-800 dark:border-gray-700"
           >
             <a href="#">
-              <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-xl md:text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
                 {item.title}
               </h5>
             </a>

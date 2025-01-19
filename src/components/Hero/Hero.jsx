@@ -12,7 +12,7 @@ export default function Hero() {
       <h1 className="text-base md:text-gray-200 md:text-xl mt-10   font-serif  font-bold  ">
         About Me...
       </h1>
-      <p className=" leading-loose md:mt-4  md:text-xl md:text-gray-100  mt-2">
+      <p className=" leading-loose md:mt-4 font-serif  md:text-xl md:text-gray-100  mt-2">
         I am a dedicated frontend web developer skilled in JavaScript, React,
         HTML, Tailwind, and CSS. With a proven track record of successfully
         collaborating with various organizations, I am committed to delivering
